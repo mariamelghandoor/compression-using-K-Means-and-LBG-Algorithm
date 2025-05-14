@@ -1,18 +1,43 @@
-## Getting Started
+# Vector Quantization Image Compression
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java program for compressing and decompressing grayscale images using vector quantization.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Converts RGB images to grayscale
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Divides images into blocks for compression
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* Creates a codebook for vector quantization
 
-## Dependency Management
+* Compresses and decompresses images
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Calculates compression ratio and MSE
+
+## Requirements
+
+1. Java 8 or higher
+
+2. Input images in BMP format
+
+## Usage
+
+- Clone the repository:
+
+```
+git clone https://github.com/mariamelghandoor/compression-using-K-Means-and-LBG-Algorithm.git
+```
+
+- Compile and run:
+
+```
+javac App.java
+java App
+```
+
+Follow the menu to compress or decompress images.
+
+## License
+
+MIT License
